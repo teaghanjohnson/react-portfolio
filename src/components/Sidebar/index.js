@@ -4,7 +4,7 @@ import LogoS from '../../assets/images/logo-s.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faLinkedin, faSkype, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 const Sidebar = () => (
   <div className='nav-bar'>
@@ -58,9 +58,19 @@ const Sidebar = () => (
           rel='noreferrer'
           href="https://www.linkedin.com/in/teaghan-johnson-510b95324/"
         >
-          <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
         </a>
       </li>
+      <li>
+        <a
+          target="_blank"
+          rel='noreferrer'
+          href="https://www.linkedin.com/in/teaghan-johnson-510b95324/"
+        >
+          <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
+        </a>
+      </li>
+
     </ul>
   </div >
 )
