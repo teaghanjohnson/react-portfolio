@@ -10,11 +10,11 @@
 
   h1 {
     color: #fff;
-    font-size: 56px;
+    font-size: 45px;
     line-height: 53px;
     margin: 0;
     font-family: 'Coolvetica';
-    font-weight: 400;
+    font-weight: 200;
 
     &:before {
       content: '<h1>';
@@ -40,12 +40,13 @@
     }
 
     img {
-      margin-left: 20px;
       opacity: 0;
-      width: 32px;
+      width: 50px;
       height: auto;
       animation: rotateIn 1s linear both;
       animation-delay: 1.4s;
+      margin-left: 10px;
+      margin-bottom: -5px;
     }
   }
 
@@ -78,6 +79,4 @@
       color: #333;
     }
   }
-
-
 }
