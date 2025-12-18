@@ -40,7 +40,7 @@ const Home = () => {
 
 
           </h1>
-          <h2> Software Engineer / Computer Science Major</h2>
+          <h2> Web Developer / Computer Science Major</h2>
           <Link to="/contact" className='flat-button'>CONTACT ME</Link>
         </div>
         <Logo />
