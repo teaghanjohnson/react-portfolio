@@ -11,6 +11,12 @@
       "title": "Weather App",
       "description": "HTML, CSS, Javascript",
       "url": "https://teaghanjohnson.github.io/weather-app/"
+    },
+    {
+      "cover": "/react-portfolio/portfolio/nba/NBA.png",
+      "title": "NBA Match Predictor",
+      "description": "Python, Scikit-Learn, Pandas, Streamlit",
+      "url": "https://enjoy-basketball.streamlit.app"
     }
   ]
 }

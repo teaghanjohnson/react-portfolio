@@ -43,6 +43,10 @@
     color: #fff;
     padding: 0 20px;
     box-sizing: border-box;
+
+    &::placeholder {
+      color: #fff;
+    }
   }
 
   textarea {
@@ -55,6 +59,10 @@
     padding: 20px;
     box-sizing: border-box;
     min-height: 150px;
+
+    &::placeholder {
+      color: #fff;
+    }
   }
 
   .flat-button {
