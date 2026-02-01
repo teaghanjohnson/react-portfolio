@@ -1,19 +1,19 @@
 {
   "portfolio": [
     {
-      "cover": "/react-portfolio/portfolio/battleship/battleship.png.webp",
+      "cover": "/portfolio/battleship/battleship.png.webp",
       "title": "Battleship",
       "description": "HTML, CSS, Javascript",
       "url": "https://teaghanjohnson.github.io/battleship/"
     },
     {
-      "cover": "/react-portfolio/portfolio/weather-app/weather-icon.webp",
+      "cover": "/portfolio/weather-app/weather-icon.webp",
       "title": "Weather App",
       "description": "HTML, CSS, Javascript",
       "url": "https://teaghanjohnson.github.io/weather-app/"
     },
     {
-      "cover": "/react-portfolio/portfolio/nba/NBA.png",
+      "cover": "/portfolio/nba/NBA.png",
       "title": "NBA Match Predictor",
       "description": "Python, Scikit-Learn, Pandas, Streamlit",
       "url": "https://enjoy-basketball.streamlit.app"
