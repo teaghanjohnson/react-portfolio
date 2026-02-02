@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2820d80d.css",
-    "main.js": "/static/js/main.4169a0e3.js",
+    "main.js": "/static/js/main.3b593ae6.js",
     "static/js/453.696a72fc.chunk.js": "/static/js/453.696a72fc.chunk.js",
     "static/media/teaghan-j-4.png": "/static/media/teaghan-j-4.b723c7d1b3b4ce1ecc59.png",
     "static/media/teaghan-logo.png": "/static/media/teaghan-logo.a1cb9ed020405ffd92cd.png",
@@ -13,11 +13,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
     "main.2820d80d.css.map": "/static/css/main.2820d80d.css.map",
-    "main.4169a0e3.js.map": "/static/js/main.4169a0e3.js.map",
+    "main.3b593ae6.js.map": "/static/js/main.3b593ae6.js.map",
     "453.696a72fc.chunk.js.map": "/static/js/453.696a72fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2820d80d.css",
-    "static/js/main.4169a0e3.js"
+    "static/js/main.3b593ae6.js"
   ]
 }
