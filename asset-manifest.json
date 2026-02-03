@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.2820d80d.css",
-    "main.js": "/static/js/main.3b593ae6.js",
+    "main.css": "/static/css/main.79d2946c.css",
+    "main.js": "/static/js/main.c0c2693f.js",
     "static/js/453.696a72fc.chunk.js": "/static/js/453.696a72fc.chunk.js",
+    "static/media/Teaghan Johnson Final Resume.pdf": "/static/media/Teaghan Johnson Final Resume.2a845715d00c0f34b319.pdf",
     "static/media/teaghan-j-4.png": "/static/media/teaghan-j-4.b723c7d1b3b4ce1ecc59.png",
     "static/media/teaghan-logo.png": "/static/media/teaghan-logo.a1cb9ed020405ffd92cd.png",
     "static/media/teaghan-subtitle.png": "/static/media/teaghan-subtitle.e7b481fa840e44a5139f.png",
@@ -12,12 +13,12 @@
     "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.2820d80d.css.map": "/static/css/main.2820d80d.css.map",
-    "main.3b593ae6.js.map": "/static/js/main.3b593ae6.js.map",
+    "main.79d2946c.css.map": "/static/css/main.79d2946c.css.map",
+    "main.c0c2693f.js.map": "/static/js/main.c0c2693f.js.map",
     "453.696a72fc.chunk.js.map": "/static/js/453.696a72fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2820d80d.css",
-    "static/js/main.3b593ae6.js"
+    "static/css/main.79d2946c.css",
+    "static/js/main.c0c2693f.js"
   ]
 }
