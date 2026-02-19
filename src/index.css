@@ -10,7 +10,7 @@ body {
   margin: 0;
   font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
-  background: linear-gradient(to bottom, #1587e3, #f4f4f4);
+  background: linear-gradient(to bottom, #050505, #1587e3, #1a1a1a);
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
