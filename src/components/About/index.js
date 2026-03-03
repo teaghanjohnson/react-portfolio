@@ -2,10 +2,15 @@ import { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss3, faGitAlt, faHtml5, faJava, faJsSquare, faPython } from '@fortawesome/free-brands-svg-icons'
+import {
+  faCss3,
+  faGitAlt,
+  faHtml5,
+  faJava,
+  faJsSquare,
+  faPython,
+} from '@fortawesome/free-brands-svg-icons'
 import Loader from 'react-loaders'
-
-
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -17,7 +22,6 @@ const About = () => {
 
     return () => clearTimeout(timer)
   }, [])
-
 
   return (
     <>
@@ -31,13 +35,15 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious aspiring full stack developer looking for any front end, back
-            end or full stack positions with the opppurtunity to work with the latest
-            technologies on challenging and diverse projects.
+            I'm an ambitious aspiring full-stack developer actively seeking
+            front-end, back-end, or full-stack opportunities where I can work
+            with modern technologies on challenging, meaningful projects.
           </p>
           <p>
-            I'm quitely confident, naturally curious, and perpetually working on improving
-            my skills onde design problem at a time,
+            I'm quietly confident, naturally curious, and constantly refining my
+            craft — improving my skills one problem at a time. I enjoy tackling
+            complex design and engineering challenges, learning new tools, and
+            turning ideas into clean, functional systems.
           </p>
         </div>
 
