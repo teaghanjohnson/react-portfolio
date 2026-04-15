@@ -17,6 +17,12 @@
       "title": "NBA Match Predictor",
       "description": "Python, Scikit-Learn, Pandas, Streamlit",
       "url": "https://enjoy-basketball.streamlit.app"
+    },
+    {
+      "cover": "/portfolio/thunderbear/thunder-bear.png",
+      "title": "Thunder Bear Inventory App",
+      "description": "Node.js, Express, PostgreSQL, EJS",
+      "url": "https://mma-store-inventory-app-production.up.railway.app"
     }
   ]
 }
