@@ -1,13 +1,14 @@
-import Loader from 'react-loaders';
+import Loader from 'react-loaders'
 import './index.scss'
-import AnimatedLetters from '../AnimatedLetters';
-import emailjs from '@emailjs/browser';
-import { useEffect, useRef, useState } from 'react';
-import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet';
+import AnimatedLetters from '../AnimatedLetters'
+import emailjs from '@emailjs/browser'
+import { useEffect, useRef, useState } from 'react'
+import { MapContainer, Marker, Popup, TileLayer } from 'react-leaflet'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const form = useRef();
+  const [emailStatus, setEmailStatus] = useState(null)
+  const form = useRef()
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -18,26 +19,31 @@ const Contact = () => {
   }, [])
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     emailjs
-      .sendForm('service_7tce3uv', 'template_dsmcbsg', form.current,
+      .sendForm(
+        'service_7tce3uv',
+        'template_dsmcbsg',
+        form.current,
         'bF0VxIx7KTmQIIIXf'
       )
       .then(
         () => {
-          console.log('Message sent successfully!');
+          setEmailStatus('success')
+          form.current.reset()
         },
         (error) => {
-          console.log('Message failed to send...', error.text);
-        },
-      );
-  };
+          console.error('EmailJS error:', error)
+          setEmailStatus('error')
+        }
+      )
+  }
 
   return (
     <>
-      <div className='container contact-page'>
-        <div className='text-zone'>
+      <div className="container contact-page">
+        <div className="text-zone">
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
@@ -46,51 +52,51 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am interested in freelance oppurtunities and internships to further
-            my experience. Feel free to contact me!
+            I am interested in freelance oppurtunities and internships to
+            further my experience. Feel free to contact me!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Name"
-                    required
-                  />
+                  <input type="text" name="name" placeholder="Name" required />
                 </li>
                 <li className="half">
                   <input
                     type="email"
                     name="email"
                     placeholder="Email"
-                    required />
+                    required
+                  />
                 </li>
                 <li>
                   <input
                     placeholder="Subject"
                     type="text"
                     name="subject"
-                    required />
+                    required
+                  />
                 </li>
                 <li>
                   <textarea
                     placeholder="Message"
                     name="message"
-                    required>
-                  </textarea>
+                    required
+                  ></textarea>
                 </li>
                 <li>
-                  <input
-                    type="submit"
-                    className="flat-button"
-                    value="SEND"
-                  />
+                  <input type="submit" className="flat-button" value="SEND" />
                 </li>
               </ul>
+              {emailStatus === 'success' && (
+                <p className="email-success">Message sent successfully!</p>
+              )}
+              {emailStatus === 'error' && (
+                <p className="email-error">
+                  Failed to send message. Please try again.
+                </p>
+              )}
             </form>
-
           </div>
         </div>
         <div className="info-map">
@@ -100,14 +106,13 @@ const Contact = () => {
           <br />
           100 Haddington St, <br />
           Caledonia, ON <br />
-          <span>teaghanjohnsonn@gmail.com</span>
-
+          <span>mylesjohnson2405@gmail.com</span>
         </div>
         <div className="map-wrap">
-          <MapContainer center={[43.064150, -79.952023]} zoom={13}>
+          <MapContainer center={[43.06415, -79.952023]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[43.064150, -79.952023]}>
-              <Popup> No this is not my exact adress :)</Popup>
+            <Marker position={[43.06415, -79.952023]}>
+              <Popup> No, this is not my exact address! </Popup>
             </Marker>
           </MapContainer>
         </div>
@@ -117,5 +122,4 @@ const Contact = () => {
   )
 }
 
-
-export default Contact; 
+export default Contact

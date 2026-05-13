@@ -1,15 +1,29 @@
-import { Link } from 'react-router-dom';
-import LogoTitle from '../../assets/images/teaghan-j-4.png';
+import { Link } from 'react-router-dom'
+import LogoTitle from '../../assets/images/teaghan-j-4.png'
 import './index.scss'
-import AnimatedLetters from '../AnimatedLetters';
-import { useEffect, useState } from 'react';
-import Logo from './Logo';
-import Loader from 'react-loaders';
+import AnimatedLetters from '../AnimatedLetters'
+import { useEffect, useState } from 'react'
+import Logo from './Logo'
+import Loader from 'react-loaders'
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const nameArray = ['e', 'a', 'g', 'h', 'a', 'n']
-  const jobArray = ['w', 'e', 'b', ' ', 'd', 'e', 'v', 'e', 'l', 'e', 'o', 'p', 'e', 'r']
+  const jobArray = [
+    'w',
+    'e',
+    'b',
+    ' ',
+    'd',
+    'e',
+    'v',
+    'e',
+    'l',
+    'o',
+    'p',
+    'e',
+    'r',
+  ]
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -30,25 +44,28 @@ const Home = () => {
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
             <img src={LogoTitle} alt="developer" />
-            <AnimatedLetters letterClass={letterClass}
+            <AnimatedLetters
+              letterClass={letterClass}
               strArray={nameArray}
-              idx={15} />
+              idx={15}
+            />
             <br />
-            <AnimatedLetters letterClass={letterClass}
+            <AnimatedLetters
+              letterClass={letterClass}
               strArray={jobArray}
-              idx={18} />
-
-
+              idx={18}
+            />
           </h1>
           <h2> Web Developer / Computer Science Major</h2>
-          <Link to="/contact" className='flat-button'>CONTACT ME</Link>
+          <Link to="/contact" className="flat-button">
+            CONTACT ME
+          </Link>
         </div>
         <Logo />
       </div>
       <Loader type="pacman" />
     </>
-  );
+  )
 }
-
 
 export default Home
