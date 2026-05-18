@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1172500.css",
+    "main.css": "/static/css/main.dff73a8e.css",
     "main.js": "/static/js/main.aa16abbe.js",
     "static/js/453.696a72fc.chunk.js": "/static/js/453.696a72fc.chunk.js",
     "static/media/teaghan-j-4.png": "/static/media/teaghan-j-4.b723c7d1b3b4ce1ecc59.png",
@@ -13,12 +13,12 @@
     "static/media/CoolveticaRg-Regular.woff": "/static/media/CoolveticaRg-Regular.8307bfa187bccdc55f4d.woff",
     "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/index.html",
-    "main.d1172500.css.map": "/static/css/main.d1172500.css.map",
+    "main.dff73a8e.css.map": "/static/css/main.dff73a8e.css.map",
     "main.aa16abbe.js.map": "/static/js/main.aa16abbe.js.map",
     "453.696a72fc.chunk.js.map": "/static/js/453.696a72fc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1172500.css",
+    "static/css/main.dff73a8e.css",
     "static/js/main.aa16abbe.js"
   ]
 }
