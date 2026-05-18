@@ -116,3 +116,41 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .tags,
+  .top-tags,
+  .bottom-tag-html {
+    display: none;
+  }
+
+  .container {
+    position: relative;
+    top: auto;
+    height: auto;
+    min-height: calc(100vh - 60px);
+    overflow-y: auto;
+    padding-bottom: 80px;
+  }
+
+  .about-page,
+  .contact-page {
+    .text-zone {
+      position: relative;
+      left: auto;
+      top: auto;
+      transform: none;
+      width: 100%;
+      padding: 80px 24px 0 24px;
+      box-sizing: border-box;
+      max-height: none;
+    }
+
+    p {
+      min-width: unset;
+      font-size: 15px;
+      letter-spacing: 1px;
+      line-height: 1.7;
+    }
+  }
+}

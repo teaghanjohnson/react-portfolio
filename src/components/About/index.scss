@@ -63,6 +63,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .stage-cube-cont {
+    display: none;
+  }
+}
+
 @keyframes spincube {
   from,
   to {

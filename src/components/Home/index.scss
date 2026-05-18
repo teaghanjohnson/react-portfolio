@@ -75,11 +75,44 @@
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
-
     &:hover {
       background: #ffffff;
       color: #5faceb;
       transition: all 0.3s ease;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home-page {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    .text-zone {
+      position: relative;
+      left: auto;
+      top: auto;
+      transform: none;
+      width: 90%;
+      margin: 0 auto;
+      padding-top: 0;
+      padding-left: 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      line-height: 42px;
+
+      &:before,
+      &:after {
+        display: none;
+      }
+    }
+
+    h2 {
+      font-size: 10px;
+      letter-spacing: 2px;
     }
   }
 }
