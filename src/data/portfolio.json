@@ -1,6 +1,25 @@
 {
   "portfolio": [
     {
+      "cover": "/portfolio/courtvision/courtvision-title-logo.png",
+      "title": "CourtVision",
+      "description": "Spring Boot, PostgreSQL, Next.js, TypeScript, Docker",
+      "url": "https://court-vision-tan.vercel.app/"
+    },
+    {
+      "cover": "/portfolio/nba/NBA.png",
+      "title": "NBA Match Predictor",
+      "description": "Python, Scikit-Learn, Pandas, Streamlit",
+      "url": "https://enjoy-basketball.streamlit.app"
+    },
+
+    {
+      "cover": "/portfolio/thunderbear/thunder-bear.png",
+      "title": "Thunder Bear Inventory App",
+      "description": "Node.js, Express, PostgreSQL, EJS",
+      "url": "https://mma-store-inventory-app-production.up.railway.app"
+    },
+    {
       "cover": "/portfolio/battleship/battleship.png.webp",
       "title": "Battleship",
       "description": "HTML, CSS, Javascript",
@@ -11,18 +30,6 @@
       "title": "Weather App",
       "description": "HTML, CSS, Javascript",
       "url": "https://teaghanjohnson.github.io/weather-app/"
-    },
-    {
-      "cover": "/portfolio/nba/NBA.png",
-      "title": "NBA Match Predictor",
-      "description": "Python, Scikit-Learn, Pandas, Streamlit",
-      "url": "https://enjoy-basketball.streamlit.app"
-    },
-    {
-      "cover": "/portfolio/thunderbear/thunder-bear.png",
-      "title": "Thunder Bear Inventory App",
-      "description": "Node.js, Express, PostgreSQL, EJS",
-      "url": "https://mma-store-inventory-app-production.up.railway.app"
     }
   ]
 }
